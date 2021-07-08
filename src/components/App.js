@@ -1,15 +1,15 @@
-import '../css/App.css';
-import Clock from "./Clock"
-import Dogs from './Dogs';
+import "../css/App.css";
+import Clock from "./Clock";
+import Dogs from "./Dogs";
 
 const App = () => {
-  console.log("Rendering App")
+  console.log("Rendering App");
   return (
     <div className="App">
-      <Clock date={new Date()}/>
+      <Clock />
       <Dogs />
     </div>
   );
-}
+};
 
 export default App;
